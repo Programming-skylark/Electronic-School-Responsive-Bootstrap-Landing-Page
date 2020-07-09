@@ -1,0 +1,228 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.container{
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+.font{
+    font-size:15px;
+    font-weight: 600;
+    color: black;
+    transition: color 1s;
+}
+.font:hover{
+    color: #21B573;
+}
+#signin{
+    background:#21B573;
+    border-radius: 33px;
+}
+.top-banner{
+    background-color:#F0FFF0 ;
+
+}
+.logo{
+    width: 200px;
+    height: 59px;
+    float: left;
+
+}
+@media screen and (max-width: 800px) {
+    .logo{
+        width: 100px;
+        height: 40px;
+    }
+    .font{
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+        margin: 0;
+        padding: 10px;
+    }
+  }
+
+.get-started{
+    background:#21B573;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 9px 25px;
+    transition: box-shadow 1s, padding 1s;
+
+}
+.get-started:hover{
+    background:#3eca8b;
+    box-shadow: 8px 8px 30px gray;
+    padding: 12px 28px;
+}
+.col-md-6{
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.col-md-6 h1{
+    font-weight: 700;
+}
+.learn{
+    color: #FD511A;
+}
+p{
+    color: gray;
+}
+    
+
+
+.image-size{
+    width: 80px;
+    height: 90px;
+    
+    
+
+}
+.card-change{
+    padding: 50px 0px;
+    border: none;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    box-shadow: 0px 0px 0px lightgray;
+    transition: box-shadow 2s;
+
+
+}
+.card-change:hover{
+    box-shadow: 5px 5px 40px lightgray;
+    background-color: white;
+
+}
+
+.middle{
+    text-align: center;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 50px;
+}
+.letter-size{
+    font-weight: 600;
+    color: #413960;
+
+}
+.calender{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+small{
+    font-weight: 700;
+    margin-left: 3px;
+}
+.cad-3{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 18px;
+}
+ .card-footer{
+     background-color: white;
+     border: none;
+
+}
+.card-pic{
+    padding: 18px;
+}
+.test{
+    text-align: center;
+    font-weight: 700;
+    
+}
+.testi{
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom:70px ;
+}
+.man{
+    width: 100%;
+}
+.man-passege{
+    font-size: 14px;
+    color:black;
+}
+.millions{
+    color: white;
+}
+.last-banner{
+    background-color: #282531;
+    color: white;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.last-banner p{
+    color: white;
+}
+footer{
+    color: #CDCDCD;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.book{
+    background-image: url("images/Photos/grungy-greenish-background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.white{
+    color: goldenrod ;
+}
+.form-box{
+    background-color: white;
+    width:80%;
+    text-align: center;
+    border-radius: 14px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: 50px 0px;
+}
+.form-control{
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    width: 60%;
+    margin: auto;
+
+}
+.cng{
+  flex-direction: column; 
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70, 70, 70, 0.25);
+  }
+  
+  .carousel-indicators .active {
+    background-color: #444;
+  }
+  .slide{
+      margin-bottom: 80px;
+  }
+  .orange-bg{
+    background-color: #F0FFF0
+    ;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.orange-bg input{
+    border: 2px solid grey;
+    margin-bottom: 10px;
+    width: 30%;
+}
+.orange-bg img{
+    width: 20%;
+}
+ 
